@@ -167,26 +167,135 @@
 // var a = Math.floor(Math.random() * 100) + 1;
 // document.write("Random Number Between (1-100): " + a);
 
-
 //Chapter 26-30 --- Task-7
 
 // var weight=prompt("Enter your weight in KGs: ");
 // document.write("Your weight is: "+weight)
 
-
 //Chapter 26-30 --- Task-8
 
-var a = Math.floor(Math.random() * 10) + 1;
-while (){
-    var user=prompt("Enter the secret number(1-10): "+a);
-    if (user===a){
-        alert("Congratulations!!!");
-        break;
-    }
-    else{
-        alert("Try Again")
-    }
-}
+// var a = Math.floor(Math.random() * 10) + 1;
+// while (1){
+//     var user=prompt("Enter the secret number(1-10): ");
+//     if (user==a){
+//         alert("Congratulations!!!");
+//         break;
+//     }
+//     else{
+//         alert("Try Again")
+//     }
+// }
+
+//Chapter 31-34 --- Task-1
+
+// var a = Date();
+// document.write(a);
+
+//Chapter 31-34 --- Task-2
+
+// var month = [
+//   "January",
+//   "February",
+//   "March",
+//   "April",
+//   "May",
+//   "June",
+//   "July",
+//   "August",
+//   "September",
+//   "October",
+//   "November",
+//   "December",
+// ];
+// var a = new Date();
+// var x = a.getMonth();
+// document.write("Current Month: "+month[x]);
+
+//Chapter 31-34 --- Task-3
+
+// var a = Date();
+// var b = a.toString();
+// var c = b.slice(0,3);
+// document.write(c);
+
+//Chapter 31-34 --- Task-4
+
+// var a = new Date();
+// var datee = [
+//   "Monday",
+//   "Tuesday",
+//   "Wednesday",
+//   "Thursday",
+//   "Friday",
+//   "Satruday",
+//   "Sunday",
+// ];
+// var x = a.getDay();
+
+// if (x===5||x===6) {
+//     document.write("Its Funday")
+// }
+// else{
+//     document.write(datee[x-1]);
+// }
+
+//Chapter 31-34 --- Task-5
+
+// var a=new Date();
+// var x=a.getDate();
+// if (x<16) {
+//     document.write("First Fifteen Days of Month");
+
+// } else {
+//     document.write("Last Fifteen Days of Month");
+// }
+
+// Chapter 31-34 --- Task-6
+
+// var a = new Date();
+// var mili = a.getTime();
+// var minutes = mili/60/60/60;
+// document.write(
+//   "Current Date: " +
+//     a +
+//     "<br> Elapsed Mili Seconds since Jan 1, 1970: " +
+//     mili +
+//     "<br> Elapsed Minutes since Jan 1, 1970: " +
+//     minutes
+// );
+
+// Chapter 31-34 --- Task-7
+
+// var dt = new Date();
+// var h = dt.getHours();
+// m = dt.getMinutes();
+// var tiime = h > 12 ? "Its PM" : "Its AM";
+
+// document.write(tiime);
 
 
-//Chapter 26-30 --- Task-1
+
+// Chapter 31-34 --- Task-8
+
+// var date = new Date("31 Dec 2020 21:00:00");
+// document.write(date);
+
+
+
+// Chapter 31-34 --- Task-9
+
+
+// var date = new Date("18 June 2015 00:00:00");
+// var x=date.getHours();
+// var x=x/24;
+// document.write(x + " Days Have Passed since 1st ramzan of 2015");
+
+
+
+
+
+
+
+
+
+
