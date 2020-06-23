@@ -273,29 +273,138 @@
 
 // document.write(tiime);
 
-
-
 // Chapter 31-34 --- Task-8
 
 // var date = new Date("31 Dec 2020 21:00:00");
 // document.write(date);
 
-
-
 // Chapter 31-34 --- Task-9
-
 
 // var date = new Date("18 June 2015 00:00:00");
 // var x=date.getHours();
 // var x=x/24;
 // document.write(x + " Days Have Passed since 1st ramzan of 2015");
 
+// Chapter 31-34 --- Task-10
+
+// Chapter 31-34 --- Task-10
+// Chapter 31-34 --- Task-11
+// Chapter 31-34 --- Task-12
+
+// var bday=prompt("Enter Your birth year: ");
+// var age=2020-bday;
+// document.write("Your Age is: "+age);
+// document.write("<br>Your Birth Year is: "+bday);
+
+// Chapter 31-34 --- Task-14
+
+// document.write("<b>K-Electric Bill</b><br>");
+// var cName="Gopal Das";
+// var month="June";
+// var nUnits=410;
+// var perUnit=16;
+// var lPayment=350
+// var nMount=nUnits*perUnit;
+// var gMount=nMount+lPayment;
+// document.write("<br>Customer Name: "+cName);
+// document.write("<br>Month: "+month);
+// document.write("<br>Number of units: "+nUnits);
+// document.write("<br>Charges Per Unit: "+perUnit+"<br>");
+// document.write("<br>Net Amount Payable (within due date): "+nMount);
+// document.write("<br>Late Payment charges: "+lPayment);
+// document.write("<br>Gross Amount Payable (after due date): "+gMount);
+
+// Chapter 35-38 --- Task-1
+
+// function now() {
+//   var a = new Date();
+//   document.write(a);
+// }
+// now();
+
+// Chapter 35-38 --- Task-2
+
+// function greet(fName, lName) {
+//   document.write("Hello " + fName +" " + lName + "<br>Welcome to our site");
+// }
+// greet("Gopal", "Das");
+
+// Chapter 35-38 --- Task-3
+
+// function addd(val1,val2){
+//     var c=val1+val2;
+//     document.write("Sum is: "+c);
+// }
+// var val1=Number(prompt("Enter 1st Value: "));
+// var val2=Number(prompt("Enter 2nd Value: "));
+// addd(val1,val2);
+
+// Chapter 35-38 --- Task-4
+
+// function calculator(num1, num2, operator) {
+//   if (operator === "+") {
+//     document.write("Sum is: " + num1 + num2);
+//   } else if (operator === "-") {
+//     document.write("Substraction is: " + num1 - num2);
+//   } else if (operator === "/") {
+//     document.write("Division is: " + num1 / num2);
+//   } else if (operator === "*") {
+//     document.write("Product is: " + num1 * num2);
+//   } else {
+//     document.write("Invalid Value");
+//   }
+// }
+// var num1=Number(prompt("Enter 1st Value: "));
+// var operator=prompt("Enter operator(+,-,*,/): ")
+// var num2=Number(prompt("Enter 2nd Value: "));
+// calculator(num1,num2,operator);
 
 
 
+// Chapter 35-38 --- Task-5
+
+// function sqr(num){
+//     document.write("Square of your value is: "+num*num)
+// }
+// var num=Number(prompt("Enter any value: "));
+// sqr(num);
 
 
 
+// Chapter 35-38 --- Task-6
+
+// function factorial(n) {
+//     return (n != 1) ? n * factorial(n - 1) : 1;
+//   }
+//   alert( factorial(6) );
+
+
+
+// Chapter 35-38 --- Task-7
+
+// var sNum=Number(prompt("Enter starting point: "))
+// var eNum=Number(prompt("Enter ending point: "))
+// for (let i = sNum; i <= eNum; i++) {
+//   document.write(i+"<br>");
+// }
+
+
+
+// Chapter 35-38 --- Task-8
+
+// function calHyp(base,perp){
+
+// }
+function hyp(base,perp) {
+    function calSqr(value) {
+        return value*value;
+    }
+    
+
+}
+
+var base=Number(prompt("Enter Base: "));
+var perp=Number(prompt("Enter Perpendicular: "));
 
 
 
